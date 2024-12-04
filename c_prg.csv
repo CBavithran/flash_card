@@ -1,0 +1,59 @@
+Question,Answer
+keywords,32
+operators,45
+separators,14
+c-token?,smallest unit of program
+compilation start from,top to bottom
+execution start from,main()
+int a;,definition
+int a=10;,initilization
+~0;,-1
+0 && X = 0,short circuit operator
+non zero || X = 1,short circuit operator
+code repetiton,loop
+++a;,inc and replace
+a++;,replace and inc
+++a--;,L value required
+a=a++;,complier dependent
+#include "file name",user defined header
+#include <file name>,build-in header
+int a; (local),auto
+int a; (global),extern
+"5.0 % 2;",semantic error
+storage class,auto static extern register
+range of char,-128 to 127 or 0 to 255
+range of short,-32768 to 32767 or 0 to 65535
+"5 + 2.0 = 7.0 (5.0+2.0)",type promotionality rule
+range of signed long,-2147483648 to 2147483647
+range of unsigned long,0 to 4294967295
+"0.12 is",double
+"0.12f is",float
+float has ,32 bits and single precision
+double has,64 bits and double precision
+sizeof(int),2 or 4 bytes
+sizeof(char),1 bytes
+sizeof(long),4 bytes
+sizeof(float),4
+sizeof(double),8
+sizeof(short),2
+if(sizeof(int) > -1),false
+++(sizeof(10)),L value required
+~1,0
+code reuse is ,function
+memory allocated,definition
+memory not allocated,declaration
+extern int g;,always declaration
+"* named as",indirection/dereference operator
+"& named as",reference operator
+void pointer also known as,generic pointer
+wild pointer also known as,uninitialized pointer
+&(&a),error:address can't be nested
+threads is,light weight component
+[ ] named as,binary operator
+
+
+
+
+
+
+
